@@ -1,0 +1,7 @@
+.DS_Store
+/.bundle
+config/secrets.yml
+config/database.yml
+/log
+/tmp
+/vendor/bundle
