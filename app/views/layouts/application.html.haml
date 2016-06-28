@@ -1,16 +1,6 @@
 !!!
-%html
-  %head
-    %title DeviseOmniauthExample
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
-    = csrf_meta_tags
+%html{lang:'en'}
+  = render 'layouts/head'
   %body
-    .flash-container
-      - if alert
-        .flash-alert
-          = alert
-      - elsif notice
-        .flash-notice
-          = notice
+    = render 'layouts/flash'
     = yield
