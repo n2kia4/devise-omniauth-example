@@ -1,0 +1,19 @@
+development: 
+  twitter_key: "YOUR_KEY"
+  twitter_secret: "YOUR_SECRET"
+
+  github_key: "YOUR_KEY"
+  github_secret: "YOUR_SECRET"
+  
+  google_key: "YOUR_KEY"
+  google_secret: "YOUR_SECRET"
+
+production: 
+  witter_key: "YOUR_KEY"
+  twitter_secret: "YOUR_SECRET"
+
+  github_key: "YOUR_KEY"
+  github_secret: "YOUR_SECRET"
+  
+  google_key: "YOUR_KEY"
+  google_secret: "YOUR_SECRET"

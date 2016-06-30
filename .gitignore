@@ -2,6 +2,7 @@
 /.bundle
 config/secrets.yml
 config/database.yml
+config/omniauth.yml
 /log
 /tmp
 /vendor/bundle
