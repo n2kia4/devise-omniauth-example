@@ -3,6 +3,8 @@ Rails.application.routes.draw do
     omniauth_callbacks: 'omniauth_callbacks'
   }
 
+  delete "/auth/destroy/:provider" => 'identities#destroy', as: :disconnect
+
   resources :users, only: [:show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
