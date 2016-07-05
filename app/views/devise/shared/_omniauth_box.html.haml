@@ -1,0 +1,9 @@
+- ['twitter', 'github', 'google'].each do |provider|
+  - if signed_in?
+    - if current_user.identities.pluck(:provider).include?(provider.to_s)
+      Connected with
+      = provider.to_s.titleize
+      = link_to "(Disconnect)", disconnect_path(provider), method: :delete, data: { confirm: 'Sure?' }
+
+    - else
+      = link_to "Connect to #{provider.to_s.titleize}", omniauth_authorize_path('user', provider)
