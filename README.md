@@ -3,7 +3,7 @@ A small application with Social login.
 
 ## Usage
 ```
-git clone https://github.com/natsukia3/devise-omniauth-example.git
+git clone https://github.com/n2kia4/devise-omniauth-example.git
 cd devise-omniauth-example
 bundle install
 rake db:create
